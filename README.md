@@ -12,8 +12,12 @@ git stash (incase if you want to stash/clear all changed files)
 git stash pop (incase if you decided to revert base all stashed files into you local)
 
 
-Note: After cloning first time, default branch only will be listed.
-
+Note: 
+1. After cloning first time, default branch only will be listed.
+2. Once the branch is merged to base branch, we can't do any new commits/ new prs in the same branch. (ie. instructions-module)
+3. You can do file changes again even though you executed git add command. 
+4. But, finally before you do git commit make sure all the required files are in staged status.
+4. 
 
 short to open terminal is alt + f12 (open terminal)
 
